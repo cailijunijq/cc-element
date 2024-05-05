@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Cc-Element",
   description: "Cc-Element组件库",
-  // base: "Cc-Element",
+  base: "/cc-element/", // 部署到子路径时需要设置base路径
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
